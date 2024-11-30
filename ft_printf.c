@@ -68,16 +68,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
-/*
-int	main(void)
-{
-	int	valor;
-	int	*puntero;
-
-	valor = 45;
-	puntero = &valor;
-	ft_printf("%p", (void *)puntero);
-	printf("\n\n%p", (void *)puntero);
-	return (0);
-}
-*/
